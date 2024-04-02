@@ -12,7 +12,7 @@
 en: &DEFAULT_EN
   header:
     title: 人在武汉!
-    text: 目前正在学习 golang lua php nodejs c c++ java ...
+    text: 我正在寻求游戏方面的解决方案
     button: 关于我
     buttonlink: "#about"
 
@@ -153,7 +153,7 @@ en: &DEFAULT_EN
     submit: "Send Message"
 
   footer:
-    legal: "Privacy Policy"
+    legal: "隐私政策"
     social:
       - url: https://twitter.com
         icon: "fab fa-twitter"

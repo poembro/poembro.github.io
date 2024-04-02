@@ -18,14 +18,14 @@ en: &DEFAULT_EN
 
   about:
     title: "关于我"
-    # text: "my story"
+    text: "我的故事"
     body: "我正在寻求游戏方面的帮助. 如何联系我:<b>poembro@gmail.com</b> "
     section: about
 
   team:
-    # title: "OUR AMAZING TEAM"
-    # text: "Lorem ipsum dolor sit amet consectetur."
-    # subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    title: "团队"
+    text: "一帮了不起的团队."
+    subtext: 我们团队秉承**"创意为先，客户至上"**的原则，致力于为客户提供最优质的策划和执行服务。我们的业务领域涵盖品牌营销、公关活动、文化传媒和数字营销等方面，拥有一支充满创意和执行力的专业团队.
     section: team
     people:
       - name: "poembro"
@@ -63,31 +63,31 @@ en: &DEFAULT_EN
 
   services:
     title: "热点"
-    text: "Recent Activities"
+    text: "最近的活动"
     section: services
     list:
-      - title: "电子商务"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "商城项目"
+        desc: "一个快速入门 golang web 的商城项目(精简版)."
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "响应设计"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "聊天软件"
+        desc: "一个运行在OpenResty上的web聊天软件."
         icon: fas fa-laptop
-      - title: "[降价](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
+      - title: "[弹幕系统](https://github.com/poembro/goim-example)"
+        desc: "一个运行在golang 上的实时通信软件,采用B站 goim 弹幕系统,可拓扑架构,etcd作服务发现,服务间通过grpc通讯."
         icon: fab fa-markdown
 
   portfolio:
     title: "项目"
-    # text: "Some random research I'm interested in."
+    text: "一些我感兴趣的研究 ."
     section: portfolio
     closebutton: "关闭"
 
   timeline:
     title: "时间轴"
-    # text: "Some notable events."
+    text: "一些值得注意的事件."
     section: timeline
     # left is the default
-    #start_align: "left"
+    # start_align: "left"
     events:
       - title: "博士生"
         year: "2024"

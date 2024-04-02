@@ -70,7 +70,7 @@ en: &DEFAULT_EN
         desc: "一个快速入门 golang web 的商城项目(精简版).适用于刚入门golang的新手朋友，简单商城项目可以拿去直接用"
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
       - title: "聊天软件"
-        desc: "一个运行在OpenResty上的web聊天软件.适用于中小型项目，新项目直接上goim主动，维护成本太高，短时间内很难驾驭，所以折中一下写了这个demo。既能应对当前开发工作量，也保证了夜间无缝切换后端 员工服务"
+        desc: "一个运行在OpenResty上的web聊天软件.适用于中小型项目，新项目直接上goim维护成本太高，短时间内很难驾驭，所以折中一下写了这个demo。既能应对当前开发工作量，也保证了夜间无缝切换后端"
         icon: fas fa-laptop
       - title: "[弹幕系统](https://github.com/poembro/goim-example)"
         desc: "一个运行在golang 上的实时通信软件,采用B站 goim 弹幕系统,可拓扑架构,etcd作服务发现,服务间通过grpc通讯."
@@ -92,7 +92,7 @@ en: &DEFAULT_EN
       - title: "一个运行在springboot上的论坛项目"
         year: "2023"
         desc: "在学习java后的一个练手项目. <br> 集成了springboot + Spring Security（jwt授权认证） + redis + mybatis-plus + Knife4j."
-        image: assets/img/timeline/j.jpg
+        image: assets/img/timeline/j.png
         alt:
       - title: "一个快速入门golang的商城项目"
         year: "2020-2022"

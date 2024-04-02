@@ -1,15 +1,15 @@
 ---
-title: 低阶适配
-subtitle: 大语言模型.
-image: assets/img/portfolio/lowrank3.gif
-alt: 低阶适配
+title: 小游戏
+subtitle: phaser游戏引擎开发.
+image: https://cdn.phaser.io/layouts/phaser2024/assets/images/download-runner-no-whoosh.png
+alt: html5游戏
 
 caption:
-  title: 低阶适配
-  subtitle: 大型语言模型
-  thumbnail: assets/img/portfolio/lowrank3.gif
+  title: 小游戏
+  subtitle: phaser游戏引擎开发
+  thumbnail: https://cdn.phaser.io/layouts/phaser2024/assets/images/download-runner-no-whoosh.png
 ---
-  大型语言模型中的低秩自适应指的是一种技术，用于针对特定的下游任务有效地微调这些模型，同时降低计算成本。通过利用模型参数的固有结构并降低它们的秩，低秩自适应可以在不牺牲性能的情况下更快地适应新数据。这种方法在计算资源有限或需要快速适应的情况下特别有用，例如在在线学习或持续学习设置中。通过低秩近似压缩模型的表示，它在适应速度和计算效率之间取得了平衡，使大型语言模型在实际应用中更加通用和实用。
+  Phaser引擎简介 Phaser是一款基于HTML5的开源游戏引擎,由Richard Davey创建并维护。它使用JavaScript语言编写,支持WebGL和Canvas渲染,提供了丰富的API和工具,可以帮助开发者快速构建h5网页小游戏
 
 {:.list-inline}
 - Publications: 

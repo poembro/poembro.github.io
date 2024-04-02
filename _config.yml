@@ -1,5 +1,25 @@
-title: 简介
-author:  poembro
+# Site settings
+title: poembro.in
+email: poembro@gmail.com
 description: description
-baseurl: /
-theme: jekyll-theme-leap-day
+baseurl: "/web" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Identity
+your-name: poembro
+your-title: description
+
+# Social settings
+500px_url:
+facebook_url: https://facebook.com
+github_url: https://github.com/poembro
+gitlab_url: https://gitlab.com/u/poembro
+googleplus_url: 
+instagram_url: https://instagram.com/poembro.in
+linkedin_url: https://www.linkedin.com/in/davedowding/
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/poembro
+
+# Build settings
+markdown: kramdown

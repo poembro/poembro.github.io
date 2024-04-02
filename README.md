@@ -1,121 +1,58 @@
+# Kross Jekyll
 
+Kross Jekyll Creative Portfolio Template ported from [Kross HTML Template](https://themefisher.com/products/kross/)
 
-# 简介
+## Demo
 
--  🔭 I’m currently working on game server...
--  🌱 I’m currently learning golang lua php nodejs c c++ java ...
--  👯 I’m looking to collaborate on game ...
--  🤔 I’m looking for help with game ...
--  📫 How to reach me: Visit my website / blog
+| Homepage  | About  | Blog  | Portfolio  | Contact  |
+|---|---|---|---|---|
+| ![Homepage](https://user-images.githubusercontent.com/37659754/58154295-1a9c5300-7c93-11e9-992c-ad8d2ff8d99f.png) | ![About](https://user-images.githubusercontent.com/37659754/58154317-28ea6f00-7c93-11e9-914b-b7e5f1cdab0e.png) | ![Blog](https://user-images.githubusercontent.com/37659754/58154339-369ff480-7c93-11e9-9568-53b7ebdc6b2d.png) | ![portfolio](https://user-images.githubusercontent.com/37659754/58154368-491a2e00-7c93-11e9-8900-f5a6abe0a61d.png) | ![contact](https://user-images.githubusercontent.com/37659754/58154403-57684a00-7c93-11e9-9cea-ea28253a6f6a.png) |
 
+[Live Preview](http://demo.themefisher.com/kross).
 
-## 大纲
+## Setup
 
-> 一个运行在OpenResty上的web聊天软件
->
-> 一个运行在golang 上的实时通信软件,采用B站 goim 弹幕系统,可拓扑架构,etcd作服务发现,服务间通过grpc通讯. 
->
-> 一个快速入门 golang web 的商城项目(精简版)
->
-> 一个被简化的PHP MVC框架
->
-> 一个运行在java springboot上的服务端技术论坛项目,集成了 springboot + Spring Security (jwt授权认证) + redis + mybatis-plus + Knife4j
+To start your project, fork this repository
+After forking the repo, your site will be live immediately on your personal Github Pages account, e.g. `https://yourusername.github.io/your-repo-name/`.
 
+Make sure GitHub Pages is enabled for your repo. It might take some time for the site to propagate entirely.
 
-### Header 3
+## Customize
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+Things you can customize in `_data/settings.yml` (no HTML/CSS):
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+- Theme General Settings ( name, logo, email, phone, address )
+- Hero Section
+- About Section
+- Team Section
+- Skills Section
+- Experience Section
+- Education Section
+- Services Section
+- Portfolio Section
+- Testimonials Section
+- Client Slider Section
+- Contact Section
 
-#### Header 4
+## Deployment
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` or `bundle exec jekyll serve` to start the Jekyll server.
+I would recommend checking the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll's website.
 
-##### Header 5
+## Reporting Issues
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+We use GitHub Issues as the official bug tracker for the **Kross Theme**. Please Search [existing issues](https://github.com/themefisher/kross-jekyll/issues). It’s possible someone has already reported the same problem.
+If your problem or idea is not addressed yet, [open a new issue](https://github.com/themefisher/kross-jekyll/issues/new)
 
-###### Header 6
+## Technical Support or Questions
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+If you have questions or need help integrating the product please [contact us](mailto:themefisher@gmail.com) instead of opening an issue.
 
-### There's a horizontal rule below this.
+<!-- licence -->
+## License
 
-* * *
+Copyright (c) 2016 - Present, Designed & Developed by [Themefisher](https://themefisher.com)
 
-### Here is an unordered list:
+**Code License:** Released under the [MIT](https://github.com/themefisher/kross-jekyll/blob/main/LICENSE) license.
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.

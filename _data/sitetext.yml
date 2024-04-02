@@ -40,26 +40,26 @@ en: &DEFAULT_EN
             icon: "fab fa-github"
           #- url: https://scholar.google.com/citations?hl=vi&authuser=1&user=EOAnZCsAAAAJ
           #  icon: "fab fa-google"
-      # - name: "Larry Parker"
-      #   role: "Lead Marketer"
-      #   image: assets/img/team/2.jpg
-      #   social:
-      #     - url: https://twitter.com
-      #       icon: fab fa-twitter
-      #     - url: https://facebook.com
-      #       icon: fab fa-facebook-f
-      #     - url: https://linkedin.com
-      #       icon: fab fa-linkedin-in
-      # - name: "Diana Perterson"
-      #   role: "Lead Developer"
-      #   image: assets/img/team/500x500.jpg
-      #   social:
-      #     - url: https://twitter.com
-      #       icon: fab fa-twitter
-      #     - url: https://facebook.com
-      #       icon: fab fa-facebook-f
-      #     - url: https://linkedin.com
-      #       icon: fab fa-linkedin-in
+      - name: "拉里•帕克"
+        role: "高级营销人员"
+        image: assets/img/team/2.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "戴克"
+        role: "高级营销人员"
+        image: assets/img/team/2.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
 
   services:
     title: "热点"
@@ -115,7 +115,7 @@ en: &DEFAULT_EN
 
   about:
     title: "关于"
-    # text: "my story"
+    text: "我的故事"
     body: "我正在寻求游戏方面的帮助. 如何联系我:<b>poembro@gmail.com</b>"
     section: about
 
@@ -137,20 +137,20 @@ en: &DEFAULT_EN
   #       url: https://github.com/raviriley/agency-jekyll-theme
   #       logo: assets/img/clients/creative-market.jpg
 
-  contact:
-    title: "联系我"
-    # text: "Lorem ipsum or call 123456789"
-    section: contact
-    name: "Name*"
-    name-validation: "请输入你的名字."
-    email: "Email*"
-    email-validation: "请输入你的邮箱."
-    phone: "Phone Number"
-    phone-validation: "请输入你的电话."
-    message: "Message*"
-    message-validation: "请输入消息."
-    subject: "Contact Form Submission"
-    submit: "Send Message"
+  # contact:
+  #   title: "联系我"
+  #   # text: "Lorem ipsum or call 123456789"
+  #   section: contact
+  #   name: "Name*"
+  #   name-validation: "请输入你的名字."
+  #   email: "Email*"
+  #   email-validation: "请输入你的邮箱."
+  #   phone: "Phone Number"
+  #   phone-validation: "请输入你的电话."
+  #   message: "Message*"
+  #   message-validation: "请输入消息."
+  #   subject: "Contact Form Submission"
+  #   submit: "Send Message"
 
   footer:
     legal: "隐私政策"

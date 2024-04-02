@@ -19,10 +19,10 @@ en: &DEFAULT_EN
       section: portfolio
     - title: "时间线"
       section: timeline
-    # - title: "Team"
-    #   section: team
-    - title: "联系"
-      section: contact
+    - title: "团队"
+      section: team
+    # - title: "联系"
+    #   section: contact
     # - title: "Theme Source"
     #   url: https://github.com/raviriley/agency-jekyll-theme/
 en-US:

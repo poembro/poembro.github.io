@@ -1,15 +1,15 @@
 ---
-title: Federated Learning
-subtitle: Federated Learning.
+title: 联合学习
+subtitle: 联合学习
 image: assets/img/portfolio/fed3.gif
 alt: 
 
 caption:
-  title: Federated Learning
-  subtitle: Federated Learning
+  title: 联合学习
+  subtitle: 联合学习
   thumbnail: assets/img/portfolio/fed3.gif
 ---
-Personalization in federated learning is a key concept aimed at tailoring model updates to individual users' preferences and characteristics while preserving their privacy. Unlike traditional centralized approaches, federated learning allows models to be trained directly on users' devices, enabling personalized adjustments without sharing raw data. Through techniques such as federated averaging and client selection strategies, federated learning algorithms can prioritize user contributions based on their relevance to the overall model's performance. This personalized approach not only enhances user satisfaction and engagement but also ensures that the federated model reflects the diverse needs and preferences of its users. As privacy concerns continue to gain prominence, personalized federated learning represents a promising avenue for collaborative model training while safeguarding sensitive user information.
+  联邦学习中的个性化是一个关键概念，旨在根据个人用户的偏好和特征定制模型更新，同时保护他们的隐私。与传统的集中式方法不同，联邦学习允许直接在用户设备上训练模型，在不共享原始数据的情况下实现个性化调整。通过联邦平均和客户端选择策略等技术，联邦学习算法可以根据用户贡献与整体模型性能的相关性对其进行优先级排序。这种个性化的方法不仅可以提高用户满意度和参与度，还可以确保联邦模型反映用户的不同需求和偏好。随着隐私问题的日益突出，个性化联邦学习代表了协作模型训练的一个有前途的途径，同时保护敏感的用户信息。
 
 {:.list-inline}
 - Publications: 

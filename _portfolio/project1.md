@@ -1,15 +1,15 @@
 ---
-title: Low-rank Adaptation
-subtitle: large language models.
+title: 低阶适配
+subtitle: 大语言模型.
 image: assets/img/portfolio/lowrank3.gif
-alt: low-rank adaptation
+alt: 低阶适配
 
 caption:
-  title: Low-rank Adaptation
-  subtitle: Large Language Model
+  title: 低阶适配
+  subtitle: 大型语言模型
   thumbnail: assets/img/portfolio/lowrank3.gif
 ---
-Low-rank adaptation in large language models refers to a technique used to efficiently fine-tune these models for specific downstream tasks while mitigating computational costs. By leveraging the inherent structure of the model's parameters and reducing their rank, low-rank adaptation enables quicker adaptation to new data without sacrificing performance. This approach is particularly useful in scenarios where computational resources are limited or when rapid adaptation is required, such as in online learning or continual learning settings. By compressing the model's representation through low-rank approximation, it strikes a balance between adaptation speed and computational efficiency, making large language models more versatile and practical for real-world applications. 
+  大型语言模型中的低秩自适应指的是一种技术，用于针对特定的下游任务有效地微调这些模型，同时降低计算成本。通过利用模型参数的固有结构并降低它们的秩，低秩自适应可以在不牺牲性能的情况下更快地适应新数据。这种方法在计算资源有限或需要快速适应的情况下特别有用，例如在在线学习或持续学习设置中。通过低秩近似压缩模型的表示，它在适应速度和计算效率之间取得了平衡，使大型语言模型在实际应用中更加通用和实用。
 
 {:.list-inline}
 - Publications: 

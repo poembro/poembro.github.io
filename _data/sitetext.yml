@@ -11,26 +11,26 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: 人在武汉!
-    text: 我正在寻求游戏方面的解决方案
+    title: 人在武汉, 勉强算个程序员!
+    text: 正在寻找游戏解决方案
     button: 关于我
     buttonlink: "#about"
 
   about:
     title: "关于我"
     text: "我的故事"
-    body: "我正在寻求游戏方面的帮助. 如何联系我:<b>poembro@gmail.com</b> "
+    body: "目前正在开发游戏服务器. <br> 正在寻找游戏合作... <br>  正在寻求游戏方面的帮助... <br> 目前正在学习golang lua php nodejs c c++ java .... <br> 如何联系我:<b>poembro@gmail.com</b> "
     section: about
 
   team:
     title: "团队"
-    text: "一帮了不起的团队."
+    text: "一帮了不起的队友."
     subtext: 我们团队秉承**"创意为先，客户至上"**的原则，致力于为客户提供最优质的策划和执行服务。我们的业务领域涵盖品牌营销、公关活动、文化传媒和数字营销等方面，拥有一支充满创意和执行力的专业团队.
     section: team
     people:
       - name: "poembro"
         role: "博士"
-        image: assets/img/team/logo.png
+        image: assets/img/team/3.png
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -42,7 +42,7 @@ en: &DEFAULT_EN
           #  icon: "fab fa-google"
       - name: "拉里•帕克"
         role: "高级营销人员"
-        image: assets/img/team/2.jpg
+        image: assets/img/team/2.png
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -52,7 +52,7 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
       - name: "戴克"
         role: "高级营销人员"
-        image: assets/img/team/2.jpg
+        image: assets/img/team/1.png
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -63,14 +63,14 @@ en: &DEFAULT_EN
 
   services:
     title: "热点"
-    text: "最近的活动"
+    text: "最近的活跃"
     section: services
     list:
       - title: "商城项目"
-        desc: "一个快速入门 golang web 的商城项目(精简版)."
+        desc: "一个快速入门 golang web 的商城项目(精简版).适用于刚入门golang的新手朋友，简单商城项目可以拿去直接用"
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
       - title: "聊天软件"
-        desc: "一个运行在OpenResty上的web聊天软件."
+        desc: "一个运行在OpenResty上的web聊天软件.适用于中小型项目，新项目直接上goim主动，维护成本太高，短时间内很难驾驭，所以折中一下写了这个demo。既能应对当前开发工作量，也保证了夜间无缝切换后端 员工服务"
         icon: fas fa-laptop
       - title: "[弹幕系统](https://github.com/poembro/goim-example)"
         desc: "一个运行在golang 上的实时通信软件,采用B站 goim 弹幕系统,可拓扑架构,etcd作服务发现,服务间通过grpc通讯."
@@ -84,25 +84,25 @@ en: &DEFAULT_EN
 
   timeline:
     title: "时间轴"
-    text: "一些值得注意的事件."
+    text: "一些值得记忆的事件."
     section: timeline
     # left is the default
     # start_align: "left"
     events:
-      - title: "博士生"
-        year: "2024"
-        desc: "在悉尼大学. <br> 导师：教授。阮陈."
-        image: assets/img/timeline/sydney.jpg
+      - title: "一个运行在springboot上的论坛项目"
+        year: "2023"
+        desc: "在学习java后的一个练手项目. <br> 集成了springboot + Spring Security（jwt授权认证） + redis + mybatis-plus + Knife4j."
+        image: assets/img/timeline/j.jpg
         alt:
-      - title: "讲师"
-        year: "2022"
-        desc: "我成为菲尼卡大学的讲师"
-        image: assets/img/timeline/phenikaa.jpg
+      - title: "一个快速入门golang的商城项目"
+        year: "2020-2022"
+        desc: "在学习golang后的一个练手项目. <br> 适用于刚入门golang的新手朋友 <br>简单商城项目可以拿去直接用"
+        image: assets/img/timeline/g.png
         alt:
-      - title: "硕士和学士"
-        year: "2013-2022"
-        desc: "我在河内科技大学获得学士和硕士学位。."
-        image: assets/img/timeline/hust.jpg
+      - title: "一个运行在OpenResty上的客服聊天软件。"
+        year: "2017-2020"
+        desc: "我在学习ngx-lua后的一个练手项目. <br> 代码完全采用ngx-lua + redis实现 <br> 支持心率包、已读/未读、历史消息同步、断线重连等."
+        image: assets/img/timeline/l.png
         alt: image alt text
       # - title: "Bachelor"
       #   year: "2013-2018"
@@ -113,11 +113,6 @@ en: &DEFAULT_EN
         align: left
     end: "<br>我的故事!"
 
-  about:
-    title: "关于"
-    text: "我的故事"
-    body: "我正在寻求游戏方面的帮助. 如何联系我:<b>poembro@gmail.com</b>"
-    section: about
 
   # clients:
   #   section: clients

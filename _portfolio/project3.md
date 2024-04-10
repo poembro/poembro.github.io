@@ -1,15 +1,16 @@
 ---
-title: 联合学习
-subtitle: 联合学习
-image: assets/img/portfolio/fed3.gif
+title: Cocos Creator
+subtitle: Cocos Creator 2D 和 3D 游戏开发
+image: https://www.cocos.com/_nuxt/img/logo.b924db5.png
 alt: 
 
 caption:
-  title: 联合学习
-  subtitle: 联合学习
-  thumbnail: assets/img/portfolio/fed3.gif
+  title: Cocos Creator
+  subtitle: Cocos Creator 2D 和 3D 游戏开发
+  thumbnail: https://www.cocos.com/_nuxt/img/logo.b924db5.png
 ---
-  联邦学习中的个性化是一个关键概念，旨在根据个人用户的偏好和特征定制模型更新，同时保护他们的隐私。与传统的集中式方法不同，联邦学习允许直接在用户设备上训练模型，在不共享原始数据的情况下实现个性化调整。通过联邦平均和客户端选择策略等技术，联邦学习算法可以根据用户贡献与整体模型性能的相关性对其进行优先级排序。这种个性化的方法不仅可以提高用户满意度和参与度，还可以确保联邦模型反映用户的不同需求和偏好。随着隐私问题的日益突出，个性化联邦学习代表了协作模型训练的一个有前途的途径，同时保护敏感的用户信息。
+  Cocos Creator 既是一款高效、轻量、免费开源的跨平台图形引擎，也是一个实时 3D 内容创作平台。它不仅能完美胜任 2D、3D 的游戏开发工作，同时在汽车、XR、元宇宙、教育等领域也都能提供完善的解决方案。
+
 
 {:.list-inline}
 - Publications: 

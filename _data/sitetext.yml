@@ -89,26 +89,26 @@ en: &DEFAULT_EN
     # left is the default
     # start_align: "left"
     events:
-      - title: "一个运行在springboot上的论坛项目"
+      - title: "springboot写的论坛项目"
         year: "2023"
         desc: "在学习java后的一个练手项目. <br> 集成了springboot + Spring Security（jwt授权认证） + redis + mybatis-plus + Knife4j."
         image: assets/img/timeline/j.png
-        alt:
-      - title: "一个快速入门golang的商城项目"
+        alt:  "一个运行在springboot上的论坛项目"
+      - title: "快速入门golang的商城项目"
         year: "2020-2022"
         desc: "在学习golang后的一个练手项目. <br> 适用于刚入门golang的新手朋友 <br>简单商城项目可以拿去直接用"
         image: assets/img/timeline/g.png
-        alt:
+        alt: "一个快速入门golang的商城项目"
       - title: "一个运行在OpenResty上的客服聊天软件。"
         year: "2017-2020"
         desc: "我在学习ngx-lua后的一个练手项目. <br> 代码完全采用ngx-lua + redis实现 <br> 支持心率包、已读/未读、历史消息同步、断线重连等."
         image: assets/img/timeline/l.png
-        alt: image alt text
-      # - title: "Bachelor"
-      #   year: "2013-2018"
-      #   desc: "I was a student at Hanoi University of Science and Technology."
-      #   image: assets/img/timeline/hust.jpg
-      #   alt:
+        alt: "一个运行在OpenResty上的客服聊天软件。"
+      - title: "一个用PHPMVC框架"
+        year: "2013-2017"
+        desc: "我在学习php后的一个练手项目.  <br>  在写过nodejs golang java lua c/c++ php等语言后, <br> 个人非常排斥/反感语言框架带来的学习成本, <br> 于是在极度缩减代码量的情况写了此项目， <br> 用来快速进行web类型的项目开发。 <br> (掌握后3-5个类文件,即可定制一个自己的MVC)."
+        image: assets/img/timeline/p.jpg
+        alt: "一个用PHP代码实现的MVC框架"
         # you can enforce the alignment
         align: left
     end: "<br>我的故事!"

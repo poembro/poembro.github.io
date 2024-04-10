@@ -106,8 +106,8 @@ en: &DEFAULT_EN
         alt: "一个运行在OpenResty上的客服聊天软件。"
       - title: "一个用PHPMVC框架"
         year: "2013-2017"
-        desc: "我在学习php后的一个练手项目.  <br>  在写过nodejs golang java lua c/c++ php等语言后, <br> 个人非常排斥/反感语言框架带来的学习成本, <br> 于是在极度缩减代码量的情况写了此项目， <br> 用来快速进行web类型的项目开发。 <br> (掌握后3-5个类文件,即可定制一个自己的MVC)."
-        image: assets/img/timeline/p.jpg
+        desc: "我在使用php后的一个总结项目. <br> 写过nodejs golang java lua c/c++ php等语言后<br> 发现框架带来了极大的学习成本, <br> 于是在极度缩减代码量的情况写了此项目， <br> 用来快速进行web类型的项目开发。 <br> (掌握后3-5个类文件,即可定制一个自己的MVC)."
+        image: assets/img/timeline/p.png
         alt: "一个用PHP代码实现的MVC框架"
         # you can enforce the alignment
         align: left
